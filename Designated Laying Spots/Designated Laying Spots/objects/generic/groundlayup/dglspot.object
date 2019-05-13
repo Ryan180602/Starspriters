@@ -1,0 +1,41 @@
+{
+  "objectName" : "dgllayup",
+  "colonyTags" : ["human","explorer"],
+  "rarity" : "Common",
+  "description" : "I'll need this to designate a spot on the ground to lay! Looks like I'll face upwards too.",
+  "shortdescription" : "DLS UP",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1,
+
+  "apexDescription" : "Rebel Apex sometimes spend many nights sleeping on the floor.",
+  "avianDescription" : "Sleeping here would be uncomfortable on the feathers.",
+  "floranDescription" : "Floran likess ground.",
+  "glitchDescription" : "Observation. It would be wise to face upwards when laying down here.",
+  "humanDescription" : "I could stargaze here.",
+  "hylotlDescription" : "I can sleep underwater with this.",
+  "novakidDescription" : "It won't get me the best night's sleep, but sleep is sleep.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [14, 5],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/generic/groundlayup/dglfakecover.png",
+  "sitEmote" : "sleep",
+
+  "inventoryIcon" : "dgliconup.png",
+  "orientations" : [
+    {
+      "dualImage" : "dgliconup.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

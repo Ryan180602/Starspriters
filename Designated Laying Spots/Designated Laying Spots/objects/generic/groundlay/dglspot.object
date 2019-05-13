@@ -1,0 +1,41 @@
+{
+  "objectName" : "dgllay",
+  "colonyTags" : ["human","explorer"],
+  "rarity" : "Common",
+  "description" : "I'll need this to designate a spot on the ground to lay!",
+  "shortdescription" : "Designated Laying Spot",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 1,
+
+  "apexDescription" : "Rebel Apex sometimes spend many nights sleeping on the floor.",
+  "avianDescription" : "Sleeping here would be uncomfortable on the feathers.",
+  "floranDescription" : "Floran likess ground.",
+  "glitchDescription" : "Observation. My sensors determine this piece of ground to be suitable for rest.",
+  "humanDescription" : "There's something special about this piece of ground.",
+  "hylotlDescription" : "I can sleep underwater with this.",
+  "novakidDescription" : "It won't get me the best night's sleep, but sleep is sleep.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [14, 5],
+  "sitOrientation" : "lay",
+  "sitAngle" : -90,
+  "sitCoverImage" : "/objects/generic/groundlay/dglfakecover.png",
+  "sitEmote" : "sleep",
+
+  "inventoryIcon" : "dglicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "dglicon.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}
