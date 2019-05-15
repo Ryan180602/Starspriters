@@ -1,0 +1,9 @@
+[
+    {
+      "op": "add",
+      "path": "/defaultBlueprints/tier2/-",
+      "value": {
+      "item": "robench"
+      }
+    }
+  ]
