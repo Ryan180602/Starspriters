@@ -1,9 +1,9 @@
-{
-"__merge" : [],
-"defaultBlueprints" : {
-"__merge" : [],
-"tier1": [
-{ "item" : "fctable" }
-]
-}
-}
+[
+    {
+      "op": "add",
+      "path": "/defaultBlueprints/tier2/-",
+      "value": {
+      "item": "robench"
+      }
+    }
+  ]
