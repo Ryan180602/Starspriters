@@ -1,0 +1,54 @@
+{
+    "objectName" : "medispenser",
+    "colonyTags" : ["science"],
+    "rarity" : "Uncommon",
+    "category" : "seed",
+    "description" : "Medical vending machine that dispenses ^red;Bandages^white; periodically.",
+    "shortdescription" : "Medical vending machine that dispenses ^red;Bandages^white; periodically.",
+    "objectType" : "farmable",
+    "printable" : false,
+    "price" : 10,
+  
+    "apexDescription" : "A vending machine that dispenses medical equipment.",
+    "avianDescription" : "A machine to help sustain my health.",
+    "floranDescription" : "Fancy machine dispensesss bandagesss.",
+    "glitchDescription" : "Intrigued. An advanced machine capable of dispensing medical objects periodically.",
+    "humanDescription" : "Wow, bandages soaked in soda?!",
+    "hylotlDescription" : "This machine seemingly takes the burden off repeatedly acquiring medical equipment.",
+    "novakidDescription" : "A machine for bandages, what else d'you need?",
+  
+    "inventoryIcon" : "medispensericon.png",
+  
+    "tooltipKind" : "seed",
+    "largeImage" : "medispenser.png:default.2.0",
+  
+    "orientations" : [
+      {
+        "dualImage" : "medispenser.png:<color>.<stage>",
+        "imagePosition" : [0, 0],
+        "spaceScan" : 0.1,
+        "requireTilledAnchors" : false,
+        "anchors" : [ "bottom" ]
+      }
+    ],
+  
+    "stages" : [
+      {
+        "duration" : [225]
+      },
+      {
+        "duration" : [225]
+      },
+      {
+        "duration" : [225]
+      },
+      {
+        "duration" : [225]
+      },
+      {
+        "harvestPool" : "bandage",
+        "resettostage": 1
+      }
+    ]
+  }
+  
