@@ -1,12 +1,4 @@
 [
-    {
-      "op": "add",
-      "path": "/defaultBlueprints/tier1/inventorstable2/-",
-      "value": { "item": "robench" } 
-    },
-    {
-      "op": "add",
-      "path": "/defaultBlueprints/tier1/robench/-",
-      "value": { "item": "medispenser"}
-    }
-  ]
+    {"op": "add","path": "/defaultBlueprints/tier1/-","value": { "item": "robench" }},
+    {"op": "add","path": "/defaultBlueprints/tier1/-","value": { "item": "medispenser"}}
+]
