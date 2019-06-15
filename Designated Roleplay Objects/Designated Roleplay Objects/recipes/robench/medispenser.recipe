@@ -8,7 +8,6 @@
         { "item" : "glass", "count" : 2 },
         { "item" : "polymer", "count" : 4 },
         { "item" : "syntheticmaterial", "count" : 2 }
-        }
     ],
     "output" : {
         "item" : "medispenser",
